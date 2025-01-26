@@ -27,7 +27,6 @@ Before running the bot, make sure you have the following installed:
 - **Node.js** (Version: `22.11.0`)
 - **npm** (Version: `10.9.0`)
 
-Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
 
 -> Double click on `run.bat` for windows or `run.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
 
@@ -63,11 +62,12 @@ This file controls the bot’s behavior. Below is an example configuration:
   "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
+  "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
-  "referralCode": "PQv1wlu7"
+  "howManyAccountsRunInOneTime": 1,
+  "referralCode": ""
 }
+
 ```
 
 - **Fields Explained:**
@@ -111,7 +111,8 @@ _Note: each row for each account_
 1. Navigate to the folder containing the bot files:
 
    ```bash
-   cd /path/to/meomundep-folder
+   git clone https://github.com/dreambabyyy/LayerEdgeBot.git
+   cd LayerEdgeBot
    ```
 
 2. Run the bot using the following command:
@@ -138,3 +139,5 @@ Your support is greatly appreciated! 🐱
 ---
 
 Enjoy using the bot! 🚀
+
+Thxz to https://github.com/MeoMunDep
